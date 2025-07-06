@@ -25,12 +25,12 @@ void insertion_sort(int *arg, int t)
 }
 int main(int argc, char** argv)
 {
-	int a[4] = {7, 2 ,1, 4};
+	int a[8] = {49, 38, 58, 87, 34, 93, 26, 13};
 	cout << "Array original: "  << endl;
-	print(a, 4);
-	insertion_sort(a, 4);
+	print(a, 8);
+	insertion_sort(a, 8);
 	cout << "Array organizado: "  << endl;
-	print(a, 4);
+	print(a, 8);
 	
 	return 0;
 }
